@@ -1,0 +1,38 @@
+Xamarin.MacでNSScrollViewのスクロールイベントを取得するには
+
+Xamarin.MacでNSScrollViewのスクロールイベントを取得する方法です。
+
+詳細はサンプルコードをご覧ください。
+
+* [サンプルコード]()
+
+ポイントは次の部分です。
+
+    public void Start(NSScrollView scrollview)
+    {
+        ScrollView = scrollview;
+        var contentView = scrollview.ContentView;
+        contentView.PostsBoundsChangedNotifications = true;
+        NSNotificationCenter.DefaultCenter.AddObserver(
+            this,
+            new Selector("boundsDidChangeNotification:"),
+            NSView.BoundsChangedNotification,
+            contentView);
+    }
+
+    /// <summary>
+    /// スクロールバーのスクロールイベントの通知
+    /// </summary>
+    [Export("boundsDidChangeNotification:")]
+    public void BoundsDidChangeNotification(NSObject o)
+    {
+        var notification = o as NSNotification;
+        var view = notification.Object as NSView;
+        var position = view.Bounds.Location;
+        Console.WriteLine("Scroll position: " + position.ToString());
+    }
+
+
+＃＃＃ 参考
+
+* [c# - Detect scroll event in NSScrollView - Stack Overflow](https://stackoverflow.com/questions/17630756/detect-scroll-event-in-nsscrollview)

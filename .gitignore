@@ -1,0 +1,8 @@
+bin/
+obj/
+*.userprefs
+.DS_Store
+packages/
+*.lock.json
+*.nuget.props
+*.nuget.targets
