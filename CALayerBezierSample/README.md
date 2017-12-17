@@ -2,6 +2,8 @@
 
 Xamarin.MacでCALayerにベジェ曲線を描画するサンプルです。
 
+![](screenshot01.png)
+
 ポイントを抜粋
 
     public partial class SampleView : AppKit.NSView, ICALayerDelegate

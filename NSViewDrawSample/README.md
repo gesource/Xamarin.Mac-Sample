@@ -2,6 +2,8 @@
 
 Xamarin.MacでNSViewのDrawRect()を使ってベジェ曲線を描画するサンプルです。
 
+![](screenshot01.png)
+
 ## 使い方
 
 実行すると、ベジェ曲線が描画されます。
