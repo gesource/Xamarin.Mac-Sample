@@ -6,6 +6,10 @@ Xamarin.Macのサンプルプロジェクトです。
 
 Xamarin.MacでCALayerにベジェ曲線を描画するサンプルプロジェクトです。
 
+## [NSBezierPathBoundsProperty](NSBezierPathBoundsProperty/README.md)
+
+NSBezierPathのBoundsとControlPointBoundsの違いを確認するため、四角形とベジェ曲線のoundsとControlPointBoundsを描画しました。
+
 ## [NSViewDrawSample](NSViewDrawSample/README.md)
 
 Xamarin.MacでNSViewのDrawRect()を使ってベジェ曲線を描画するサンプルです。
