@@ -27,3 +27,19 @@ NSViewのマウスイベントを受け取るサンプルプロジェクトで�
 ## [ScrollViewEventSample](ScrollViewEventSample/README.md)
 
 NSScrollViewのスクロールイベントを取得するサンプルプロジェクトです。
+
+## [ViewScaleSample](ViewScaleSample/README.md)
+
+NSViewの表示倍率を変更するサンプルアプリケーションです。  
+表示領域の大きさは変わりません。
+
+![](ViewScaleSample/ViewScaleSample.gif)
+
+
+## [ViewScaleSample2](ViewScaleSample2/README.md)
+
+NSViewの表示倍率を変更するサンプルアプリケーションです。  
+表示領域の大きさも変わります。
+
+![](ViewScaleSample2/ViewScaleSample2.gif)
+
