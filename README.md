@@ -28,6 +28,14 @@ NSViewのサイズが変更された時に通知を受け取るサンプルア�
 
 ![](NSViewFrameChanged/NSViewFrameChanged.gif)
 
+# [NSViewMouseEventSample](NSViewMouseEventSample/README.md)
+
+NSViewのマウスイベントの情報を取得するサンプルアプリケーションです。
+
+NSViewのマウスイベントの情報をログに出力します。
+
+![](NSViewMouseEventSample/NSViewMouseEventSample.gif)
+
 ## [NSViewMouseTrackingSample](NSViewMouseTrackingSample/README.md)
 
 NSViewのマウスイベント(MouseEntered/MouseExited/MouseMoved)を受け取るサンプルプロジェクトです。
