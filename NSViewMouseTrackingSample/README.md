@@ -1,7 +1,7 @@
 # Xamarin.Macでマウスイベントを受け取る
 
-Xamarin.Macで、NSViewのマウスイベントを受け取るサンプルプロジェクトです。
+NSViewのマウスイベント(MouseEntered/MouseExited/MouseMoved)を受け取るサンプルプロジェクトです。
 
-![](screenshot01.png)
+受け取ったイベントの情報をログに出力します。
 
-![](screenshot02.png)
+![](NSViewMouseTrackingSample.gif)
