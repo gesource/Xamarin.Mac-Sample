@@ -32,6 +32,12 @@ NSViewのサイズが変更された時に通知を受け取るサンプルア�
 
 NSViewのマウスイベントを受け取るサンプルプロジェクトです。
 
+# [NSViewFrameOriginSample](NSViewFrameOriginSample/README.md)
+
+NSViewのSetFrameOrigin()を使って、NSViewの位置を更新するサンプルアプリケーションです。
+
+![](NSViewFrameOriginSample/NSViewFrameOriginSample.gif)
+
 # [NSWindowDidResizeNotification](NSWindowDidResizeNotification/README.md)
 
 ウィンドウのサイズが変更された時に通知を受け取り、ウィンドウサイズを表示します。
