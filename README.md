@@ -32,6 +32,12 @@ NSViewのサイズが変更された時に通知を受け取るサンプルア�
 
 NSViewのマウスイベントを受け取るサンプルプロジェクトです。
 
+# [NSWindowDidResizeNotification](NSWindowDidResizeNotification/README.md)
+
+ウィンドウのサイズが変更された時に通知を受け取り、ウィンドウサイズを表示します。
+
+![](NSWindowDidResizeNotification/NSWindowDidResizeNotification.gif)
+
 ## [ScrollViewEventSample](ScrollViewEventSample/README.md)
 
 NSScrollViewのスクロールイベントを取得するサンプルプロジェクトです。
