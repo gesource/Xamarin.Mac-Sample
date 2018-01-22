@@ -20,6 +20,14 @@ NSBezierPathのBoundsとControlPointBoundsの違いを確認するため、四�
 
 NSViewのDrawRect()を使ってベジェ曲線を描画するサンプルです。
 
+## [NSViewFrameChanged](NSViewFrameChanged/README.md)
+
+NSViewのサイズが変更された時に通知を受け取るサンプルアプリケーションです。
+
+サイズが変更された時、現在のサイズを表示します。
+
+![](NSViewFrameChanged/NSViewFrameChanged.gif)
+
 ## [NSViewMouseTrackingSample](NSViewMouseTrackingSample/README.md)
 
 NSViewのマウスイベントを受け取るサンプルプロジェクトです。
