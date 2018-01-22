@@ -8,7 +8,9 @@ NSViewのサイズが変更された時に通知を受け取るサンプルア�
 
 ## 要点
 
-NSViewでは、サイズが変更されるとOnFrameChagnedイベントを実行します。
+NSView.Notifications.ObserveFrameChanged()で、NSViewのサイズが変更された時に実行する処理を登録します。
+
+次のコードでは、OnFrameChangedイベントを実行しています。
 
     public partial class MainView : NSView
     {
@@ -21,7 +23,7 @@ NSViewでは、サイズが変更されるとOnFrameChagnedイベントを実行
         }
     }
 
-ViewControllerでは、OnFrameChagnedイベントでNSViewのサイズを表示します。
+ViewControllerでは、OnFrameChagnedイベントでPrintFrameSize()メソッドを実行してNSViewのサイズを表示します。
 
     public partial class ViewController : NSViewController
     {
