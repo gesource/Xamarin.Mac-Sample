@@ -16,11 +16,17 @@ NSView上に描画した図形をドラッグして移動するサンプルア�
 
 NSBezierPathのBoundsとControlPointBoundsの違いを確認するため、四角形とベジェ曲線のoundsとControlPointBoundsを描画しました。
 
-# [NSScrollViewContentCentered](NSScrollViewContentCentered/README.md)
+## [NSScrollViewContentCentered](NSScrollViewContentCentered/README.md)
 
 NSScrollViewのコンテンツを中央に表示するサンプルアプリケーションです。
 
 ![](NSScrollViewContentCentered/NSScrollViewContentCentered.gif)
+
+## [NSViewAddConstrains](NSViewAddConstrains/README.md)
+
+C#のコードでオートレイアウトの設定をするサンプルアプリケーションです。
+
+![](NSViewAddConstrains/NSViewAddConstrains.gif)
 
 ## [NSViewDrawSample](NSViewDrawSample/README.md)
 
@@ -40,7 +46,7 @@ NSViewのサイズが変更された時に通知を受け取るサンプルア�
 
 ![](NSViewFrameChanged/NSViewFrameChanged.gif)
 
-# [NSViewMouseEventSample](NSViewMouseEventSample/README.md)
+## [NSViewMouseEventSample](NSViewMouseEventSample/README.md)
 
 NSViewのマウスイベントの情報を取得するサンプルアプリケーションです。
 
@@ -56,13 +62,13 @@ NSViewのマウスイベント(MouseEntered/MouseExited/MouseMoved)を受け取�
 
 ![](NSViewMouseTrackingSample/NSViewMouseTrackingSample.gif)
 
-# [NSViewFrameOriginSample](NSViewFrameOriginSample/README.md)
+## [NSViewFrameOriginSample](NSViewFrameOriginSample/README.md)
 
 NSViewのSetFrameOrigin()を使って、NSViewの位置を更新するサンプルアプリケーションです。
 
 ![](NSViewFrameOriginSample/NSViewFrameOriginSample.gif)
 
-# [NSWindowDidResizeNotification](NSWindowDidResizeNotification/README.md)
+## [NSWindowDidResizeNotification](NSWindowDidResizeNotification/README.md)
 
 ウィンドウのサイズが変更された時に通知を受け取り、ウィンドウサイズを表示します。
 
@@ -78,7 +84,6 @@ NSViewの表示倍率を変更するサンプルアプリケーションです�
 表示領域の大きさは変わりません。
 
 ![](ViewScaleSample/ViewScaleSample.gif)
-
 
 ## [ViewScaleSample2](ViewScaleSample2/README.md)
 
