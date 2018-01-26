@@ -16,6 +16,12 @@ NSView上に描画した図形をドラッグして移動するサンプルア�
 
 NSBezierPathのBoundsとControlPointBoundsの違いを確認するため、四角形とベジェ曲線のoundsとControlPointBoundsを描画しました。
 
+# [NSScrollViewContentCentered](NSScrollViewContentCentered/README.md)
+
+NSScrollViewのコンテンツを中央に表示するサンプルアプリケーションです。
+
+![](NSScrollViewContentCentered/NSScrollViewContentCentered.gif)
+
 ## [NSViewDrawSample](NSViewDrawSample/README.md)
 
 NSViewのDrawRect()を使ってベジェ曲線を描画するサンプルです。
