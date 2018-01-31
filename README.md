@@ -28,6 +28,12 @@ C#のコードでオートレイアウトの設定をするサンプルアプリ
 
 ![](NSViewAddConstrains/NSViewAddConstrains.gif)
 
+## [NSViewChangeCursor](NSViewChangeCursor/README.md)
+
+NSViewの上にマウスポインタが移動したらマウスカーソルを変更するサンプルアプリケーションです。
+
+![](NSViewChangeCursor/NSViewChangeCursor.gif)
+
 ## [NSViewDrawSample](NSViewDrawSample/README.md)
 
 NSViewのDrawRect()を使ってベジェ曲線を描画するサンプルです。
