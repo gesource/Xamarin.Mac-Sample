@@ -16,6 +16,22 @@ NSView上に描画した図形をドラッグして移動するサンプルア�
 
 NSBezierPathのBoundsとControlPointBoundsの違いを確認するため、四角形とベジェ曲線のoundsとControlPointBoundsを描画しました。
 
+## [NSBezierPathLineDash](NSBezierPathLineDash/README.md)
+
+NSBezierPathを使って点線を描画するサンプルアプリケーションです。
+
+スライダーで線の太さ・点線の線・空白の長さを指定すると、点線を描画します。
+
+![](NSBezierPathLineDash/NSBezierPathLineDash.gif)
+
+## [NSColorWellSample](NSColorWellSample/README.md)
+
+Xamarin.MacでNSColorWellを使ったサンプルアプリケーションです。
+
+NSColorWellで色を選択すると、選択された色をNSViewに表示し、NSTextFieldにR/G/Bの各値を表示します。
+
+![](NSColorWellSample/NSColorWellSample.gif)
+
 ## [NSScrollViewContentCentered](NSScrollViewContentCentered/README.md)
 
 NSScrollViewのコンテンツを中央に表示するサンプルアプリケーションです。
@@ -79,6 +95,14 @@ NSViewのSetFrameOrigin()を使って、NSViewの位置を更新するサンプ�
 ウィンドウのサイズが変更された時に通知を受け取り、ウィンドウサイズを表示します。
 
 ![](NSWindowDidResizeNotification/NSWindowDidResizeNotification.gif)
+
+## [PinchEventSample](PinchEventSample/README.md)
+
+二本指で縮小(ピンチイン/pinch-in)や拡大(ピンチアウト/pinch-out)したときのイベントを受け取るサンプルアプリケーションです。
+
+NSView上でピンチイン・ピンチアウトすると、倍率を表示します。
+
+![](PinchEventSample/PinchEventSample.png)
 
 ## [ScrollViewEventSample](ScrollViewEventSample/README.md)
 
