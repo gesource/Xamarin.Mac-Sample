@@ -1,0 +1,12 @@
+# NSViewMouseTrackingInVisibleRect
+
+NSTrackingAreaOptionsのinVisibleRectの動作を確認するプログラムです。
+
+赤枠がBoundsの範囲、青枠がNSTrackingAreaで指定した範囲です。
+
+![](NSViewMouseTrackingInVisibleRect.png)
+
+NSViewの上でマウスを動かすと、MouseEntered/MouseExited/MouseMovedのイベントをログに出力します。
+
+NSTrackingAreaにNSTrackingAreaOptions.inVisibleRectを含めると、NSViewのサイスなどが更新されたときに、自動的にトラッキングの範囲がvisibleRectになることが確認できます。
+

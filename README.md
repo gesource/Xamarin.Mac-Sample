@@ -84,6 +84,12 @@ NSViewのマウスイベント(MouseEntered/MouseExited/MouseMoved)を受け取�
 
 ![](NSViewMouseTrackingSample/NSViewMouseTrackingSample.gif)
 
+# [NSViewMouseTrackingInVisibleRect](NSViewMouseTrackingInVisibleRect/README.md)
+
+NSTrackingAreaOptionsのinVisibleRectの動作を確認するプログラムです。
+
+![](NSViewMouseTrackingInVisibleRect/NSViewMouseTrackingInVisibleRect.png)
+
 ## [NSViewFrameOriginSample](NSViewFrameOriginSample/README.md)
 
 NSViewのSetFrameOrigin()を使って、NSViewの位置を更新するサンプルアプリケーションです。
