@@ -12,6 +12,13 @@ NSView上に描画した図形をドラッグして移動するサンプルア�
 
 ![](DragSample/DragSample.gif)
 
+# [MultiLine](MultiLine/README.md)
+
+NSTextFieldに複数行の文字列を表示します。
+
+![](MultiLine/MultiLine.png)
+
+
 ## [NSBezierPathBoundsProperty](NSBezierPathBoundsProperty/README.md)
 
 NSBezierPathのBoundsとControlPointBoundsの違いを確認するため、四角形とベジェ曲線のoundsとControlPointBoundsを描画しました。
