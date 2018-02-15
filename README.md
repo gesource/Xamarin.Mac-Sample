@@ -125,6 +125,12 @@ NSView上でピンチイン・ピンチアウトすると、倍率を表示し�
 
 ![](PinchEventSample/PinchEventSample.png)
 
+# [ScreenDevice](ScreenDevice/README.md)
+
+表示デバイスの情報を取得します。
+
+![](ScreenDevice/ScreenDevice.png)
+
 ## [ScrollViewEventSample](ScrollViewEventSample/README.md)
 
 NSScrollViewのスクロールイベントを取得するサンプルプロジェクトです。
