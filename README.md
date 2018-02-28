@@ -39,6 +39,12 @@ NSColorWellで色を選択すると、選択された色をNSViewに表示し、
 
 ![](NSColorWellSample/NSColorWellSample.gif)
 
+## [NSFontPanelSample](NSFontPanelSample/README.md)
+
+Xamarin.MacでNSFontPanelを使用するサンプルアプリケーションです。
+
+![](NSFontPanelSample/screen.png)
+
 ## [NSScrollViewContentCentered](NSScrollViewContentCentered/README.md)
 
 NSScrollViewのコンテンツを中央に表示するサンプルアプリケーションです。
