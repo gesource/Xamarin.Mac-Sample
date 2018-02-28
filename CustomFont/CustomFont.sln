@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomFont", "CustomFont\CustomFont.csproj", "{01F4E88D-40BE-4396-85A9-61847482E5E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01F4E88D-40BE-4396-85A9-61847482E5E5}.Debug|x86.ActiveCfg = Debug|x86
+		{01F4E88D-40BE-4396-85A9-61847482E5E5}.Debug|x86.Build.0 = Debug|x86
+		{01F4E88D-40BE-4396-85A9-61847482E5E5}.Release|x86.ActiveCfg = Release|x86
+		{01F4E88D-40BE-4396-85A9-61847482E5E5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
