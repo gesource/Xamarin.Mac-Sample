@@ -15,14 +15,6 @@ namespace MouseEventSample
         public MainView(IntPtr handle) : base(handle)
         {
             InitTracking();
-
-            // サイズが変更されたら、トラッキングの範囲を更新する
-            NSNotificationCenter.DefaultCenter.AddObserver(
-                NSView.FrameChangedNotification,
-                (notification) =>
-                {
-                    InitTracking();
-                });
         }
 
         public override void DrawRect(CGRect dirtyRect)
