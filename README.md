@@ -131,11 +131,17 @@ NSView上でピンチイン・ピンチアウトすると、倍率を表示し�
 
 ![](PinchEventSample/PinchEventSample.png)
 
-# [ScreenDevice](ScreenDevice/README.md)
+## [ScreenDevice](ScreenDevice/README.md)
 
 表示デバイスの情報を取得します。
 
 ![](ScreenDevice/ScreenDevice.png)
+
+## [StringToPath](StringToPath/README.md)
+
+Xamarin.Macで文字列の輪郭のパスを取得するサンプルアプリケーションです。
+
+![](StringToPath/screen.png)
 
 ## [ScrollViewEventSample](ScrollViewEventSample/README.md)
 
