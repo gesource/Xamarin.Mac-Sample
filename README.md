@@ -141,7 +141,7 @@ NSView上でピンチイン・ピンチアウトすると、倍率を表示し�
 
 Xamarin.Macで文字列の輪郭のパスを取得するサンプルアプリケーションです。
 
-![](StringToPath/screen.png)
+![](StringToPath/screen.gif)
 
 ## [ScrollViewEventSample](ScrollViewEventSample/README.md)
 

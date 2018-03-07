@@ -24,9 +24,9 @@ namespace StringToPath
             ButtonFont.Activated += (sender, e) => ShowFontPanel();
             TextFieldString.Changed += (sender, e) => UpdateText();
             ButtonFont.Activated += (sender, e) => UpdateText();
+            SliderLetterSpacing.Activated += (sender, e) => UpdateLetterSpacing();
             SetFont(myFont);
         }
-
 
         public override NSObject RepresentedObject
         {
@@ -68,5 +68,11 @@ namespace StringToPath
             LabelString.StringValue = TextFieldString.StringValue;
             pathView.StringValue = TextFieldString.StringValue;
         }
+
+        private void UpdateLetterSpacing()
+        {
+            pathView.LetterSpacing = SliderLetterSpacing.DoubleValue;
+        }
+
     }
 }

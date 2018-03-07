@@ -13,9 +13,6 @@ namespace StringToPath
 	partial class ViewController
 	{
 		[Outlet]
-		AppKit.NSButton ButtonDraw { get; set; }
-
-		[Outlet]
 		AppKit.NSButton ButtonFont { get; set; }
 
 		[Outlet]
@@ -28,10 +25,18 @@ namespace StringToPath
 		Foundation.NSObject PathView { get; set; }
 
 		[Outlet]
+		AppKit.NSSlider SliderLetterSpacing { get; set; }
+
+		[Outlet]
 		AppKit.NSTextField TextFieldString { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
+			if (SliderLetterSpacing != null) {
+				SliderLetterSpacing.Dispose ();
+				SliderLetterSpacing = null;
+			}
+
 			if (ButtonFont != null) {
 				ButtonFont.Dispose ();
 				ButtonFont = null;
@@ -42,16 +47,6 @@ namespace StringToPath
 				LabelFont = null;
 			}
 
-			if (TextFieldString != null) {
-				TextFieldString.Dispose ();
-				TextFieldString = null;
-			}
-
-			if (ButtonDraw != null) {
-				ButtonDraw.Dispose ();
-				ButtonDraw = null;
-			}
-
 			if (LabelString != null) {
 				LabelString.Dispose ();
 				LabelString = null;
@@ -60,6 +55,11 @@ namespace StringToPath
 			if (PathView != null) {
 				PathView.Dispose ();
 				PathView = null;
+			}
+
+			if (TextFieldString != null) {
+				TextFieldString.Dispose ();
+				TextFieldString = null;
 			}
 		}
 	}
