@@ -12,6 +12,14 @@ NSView上に描画した図形をドラッグして移動するサンプルア�
 
 ![](DragSample/DragSample.gif)
 
+# [MacVersion](MacVersion/README.md)
+
+OSのバージョンによって使用するAPIを変えたいとき、OSのバージョンを確認する必要があります。
+
+MacOSのバージョンを確認する方法を紹介します。
+
+![](MacVersion/screen.png)
+
 # [MultiLine](MultiLine/README.md)
 
 NSTextFieldに複数行の文字列を表示します。
