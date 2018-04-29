@@ -14,6 +14,7 @@ namespace NSViewFrameChanged
         public MainView(IntPtr handle) : base(handle)
         {
             NSView.Notifications.ObserveFrameChanged(
+                this,
                 (sender, e) => OnFrameChagned?.Invoke(this, EventArgs.Empty));
         }
 

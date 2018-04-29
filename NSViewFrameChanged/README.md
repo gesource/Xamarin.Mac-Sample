@@ -19,6 +19,7 @@ NSView.Notifications.ObserveFrameChanged()で、NSViewのサイズが変更さ�
         public MainView(IntPtr handle) : base(handle)
         {
             NSView.Notifications.ObserveFrameChanged(
+                this,
                 (sender, e) => OnFrameChagned?.Invoke(this, EventArgs.Empty));
         }
     }
