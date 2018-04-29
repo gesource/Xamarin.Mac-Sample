@@ -137,6 +137,12 @@ NSViewのSetFrameOrigin()を使って、NSViewの位置を更新するサンプ�
 
 ![](NSWindowDidResizeNotification/NSWindowDidResizeNotification.gif)
 
+## [NSWindowWillClose](NSWindowWillClose/README.md)
+
+![](NSWindowWillClose/NSWindowWillClose.png)
+
+ウィンドウを閉じた時にアプリケーションを終了します。
+
 ## [PinchEventSample](PinchEventSample/README.md)
 
 二本指で縮小(ピンチイン/pinch-in)や拡大(ピンチアウト/pinch-out)したときのイベントを受け取るサンプルアプリケーションです。
