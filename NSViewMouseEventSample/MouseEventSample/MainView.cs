@@ -14,7 +14,6 @@ namespace MouseEventSample
 
         public MainView(IntPtr handle) : base(handle)
         {
-            InitTracking();
         }
 
         public override void DrawRect(CGRect dirtyRect)
@@ -26,7 +25,7 @@ namespace MouseEventSample
         /// <summary>
         /// トラッキングの設定を行います
         /// </summary>
-        private void InitTracking()
+        public override void UpdateTrackingAreas()
         {
             if (trackingArea != null)
                 this.RemoveTrackingArea(trackingArea);

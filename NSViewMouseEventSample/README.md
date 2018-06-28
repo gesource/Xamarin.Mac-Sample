@@ -10,6 +10,9 @@ NSViewのマウスイベントの情報をログに出力します。
 
 ## 要点
 
+UpdateTrackingAreas()メソッドでトラッキングエリアの設定を行います。  
+NSTrackingArea()の引数で受け取るイベントを設定します。
+
     public partial class MainView : NSView
     {
         public override void MouseEntered(NSEvent theEvent) => Print(theEvent);
@@ -22,6 +25,22 @@ NSViewのマウスイベントの情報をログに出力します。
         public override void RightMouseUp(NSEvent theEvent) => Print(theEvent);
         public override void RightMouseDragged(NSEvent theEvent) => Print(theEvent);
         public override void ScrollWheel(NSEvent theEvent) => Print(theEvent);
+
+        /// <summary>
+        /// トラッキングの設定を行います
+        /// </summary>
+        public override void UpdateTrackingAreas()
+        {
+            if (trackingArea != null)
+                this.RemoveTrackingArea(trackingArea);
+
+            trackingArea = new NSTrackingArea(
+                CGRect.Empty,
+                NSTrackingAreaOptions.ActiveAlways | NSTrackingAreaOptions.MouseEnteredAndExited | NSTrackingAreaOptions.MouseMoved | NSTrackingAreaOptions.InVisibleRect,
+                this,
+                null);
+            this.AddTrackingArea(trackingArea);
+        }
 
         private void Print(NSEvent theEvent)
         {
