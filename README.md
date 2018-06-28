@@ -59,6 +59,12 @@ Xamarin.MacでNSFontPanelを使用するサンプルアプリケーションで�
 
 ![](NSFontPanelSample/screen.png)
 
+## [NSImageに画像を読み込む方法](NSImageLoad/)
+
+NSImageに画像を読み込む方法を4つ紹介します。
+
+![](NSImageLoad/NSImageLoad.png)
+
 ## [NSScrollViewContentCentered](NSScrollViewContentCentered/README.md)
 
 NSScrollViewのコンテンツを中央に表示するサンプルアプリケーションです。
