@@ -59,6 +59,12 @@ Xamarin.MacでNSFontPanelを使用するサンプルアプリケーションで�
 
 ![](NSFontPanelSample/screen.png)
 
+## [画像サイズと解像度を取得する](NSImageDPI/)
+
+画像ファイルを読み込み、画像サイズやピクセル数、DPIを取得します。
+
+![](NSImageDPI/NSImageDPI.png)
+
 ## [NSImageに画像を読み込む方法](NSImageLoad/)
 
 NSImageに画像を読み込む方法を4つ紹介します。

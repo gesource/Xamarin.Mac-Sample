@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{346CD06E-6F46-4381-8CEF-1C2D1592EBE2}|Default">
+  <MonoDevelop.Ide.ItemProperties.NSImageDPI PreferredExecutionTarget="Test1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NSImageDPI/ViewController.cs">
+    <Files>
+      <File FileName="NSImageDPI/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="NSImageDPI/ViewController.cs" Line="58" Column="11" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
