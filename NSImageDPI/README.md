@@ -8,7 +8,7 @@
 
 ## ソースコード
 
-NSImageやNSImageRepのSizeは、DPIを考慮した表示場のサイズ、  
+NSImageやNSImageRepのSizeは、DPIを考慮した表示上のサイズ、  
 NSImageRepのPixelsWideとPixelsHighは、画像のピクセル数です。
 
 これらの値からDPIを算出します。
