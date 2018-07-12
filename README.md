@@ -12,6 +12,12 @@ NSView上に描画した図形をドラッグして移動するサンプルア�
 
 ![](DragSample/DragSample.gif)
 
+## [NSImageのサイズを変更する](ImageResize/)
+
+NSImageのサイズを変更し、PNG画像をファイルに保存するアプリケーションです。
+
+![](ImageResize/ImageResize.png)
+
 ## [MacSystemDrawing](MacSystemDrawing/README.md)
 
 Xamarin.Macでプロジェクトのターゲットフレームワークに「Xamarin.Mac Modern」を選択していると、System.Drawingを使用できません。
