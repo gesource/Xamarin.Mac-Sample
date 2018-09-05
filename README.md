@@ -12,6 +12,12 @@ NSView上に描画した図形をドラッグして移動するサンプルア�
 
 ![](DragSample/DragSample.gif)
 
+## [GlobalMonitorSample](GlobalMonitorSample/)
+
+アプリケーションがアクティブでないときや、マウスカーソルがウィンドウ外にあるときにもマウスカーソルの位置を取得するサンプルアプリケーションです。
+
+![](GlobalMonitorSample/GlobalMonitorSample.gif)
+
 ## [NSImageのサイズを変更する](ImageResize/)
 
 NSImageのサイズを変更し、PNG画像をファイルに保存するアプリケーションです。
