@@ -175,6 +175,13 @@ NSView上でピンチイン・ピンチアウトすると、倍率を表示し�
 
 ![](PinchEventSample/PinchEventSample.png)
 
+## [Xamarin.Macでコンテキストメニューを表示する](PopupMenuSample/README.MD)
+
+Xamarin.Macでコンテキストメニューを表示するサンプルです。
+
+![Xamarin.Macでコンテキストメニューを表示する](PopupMenuSample/PopupMenuSample.gif)
+
+
 ## [ScreenDevice](ScreenDevice/README.md)
 
 表示デバイスの情報を取得します。
