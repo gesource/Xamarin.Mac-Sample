@@ -38,6 +38,14 @@ MacOSのバージョンを確認する方法を紹介します。
 
 ![](MacVersion/screen.png)
 
+## [マウスカーソルの座標と押されているボタンを取得する](MouseStateSample/README.md)
+
+Xamarin.Macで、マウスの座標と押されているマウスのボタンを取得するサンプルアプリケーションです。
+
+更新ボタン(またはcontrol+Aキー)を押すと、その時のマウスの座標と押されているマウスのボタンを表示します。
+
+![](MouseStateSample/MouseStateSample.png)
+
 ## [MultiLine](MultiLine/README.md)
 
 NSTextFieldに複数行の文字列を表示します。
