@@ -12,7 +12,6 @@ Xamarin.Macで、アプリケーションの多重起動をチェックするサ
 
 すでにアプリケーションが起動しているときはコンソールにメッセージを出力して、アプリケーションを終了します。
 
-
 ## [DragSample](DragSample/README.md)
 
 NSView上に描画した図形をドラッグして移動するサンプルアプリケーションです。
@@ -103,6 +102,12 @@ NSImageに画像を読み込む方法を4つ紹介します。
 NSScrollViewのコンテンツを中央に表示するサンプルアプリケーションです。
 
 ![](NSScrollViewContentCentered/NSScrollViewContentCentered.gif)
+
+# [NSScrollViewのスクロールのイベントを取得する](NSScrollViewScrollEventSample/README.md)
+
+Xamarin.Macで、NSScrollViewのスクロールのイベントを取得するサンプルアプリケーションです。
+
+![](NSScrollViewScrollEventSample/NSScrollViewScrollEventSample.gif)
 
 ## [NSViewAddConstrains](NSViewAddConstrains/README.md)
 
