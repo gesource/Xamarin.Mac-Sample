@@ -6,6 +6,13 @@ Xamarin.Macのサンプルプロジェクトです。
 
 CALayerにベジェ曲線を描画するサンプルプロジェクトです。
 
+## [多重起動をチェックする](CheckDeduplicateRunningSample/README.md)
+
+Xamarin.Macで、アプリケーションの多重起動をチェックするサンプルアプリケーションです。
+
+すでにアプリケーションが起動しているときはコンソールにメッセージを出力して、アプリケーションを終了します。
+
+
 ## [DragSample](DragSample/README.md)
 
 NSView上に描画した図形をドラッグして移動するサンプルアプリケーションです。
